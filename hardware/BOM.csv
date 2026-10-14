@@ -1,0 +1,15 @@
+Ref,Qty,Part,Description,Example part / spec,Notes
+U1,1,ESP32 MiniKit,MH-ET LIVE ESP32 MiniKit (ESP32-WROOM-32),MH-ET LIVE MiniKit,Controller; WiFi + HomeKit
+K1,1,Relay module,Single-channel 5 V relay module,Songle SRD-05VDC-SL-C (10 A / 250 VAC contact),Light 1 on GPIO 18
+K2,1,Relay module,Single-channel 5 V relay module,Songle SRD-05VDC-SL-C (10 A / 250 VAC contact),Light 2 on GPIO 19
+SW1,1,Wall switch,Single-pole 2-way (SPDT) light switch,Any standard 2-way / 3-way switch,Light 1 input on GPIO 32; low voltage only
+SW2,1,Wall switch,Single-pole 2-way (SPDT) light switch,Any standard 2-way / 3-way switch,Light 2 input on GPIO 33; low voltage only
+PS1,1,5 V supply,5 V USB power supply >= 1 A + micro-USB cable,Any 5 V 1 A+ USB charger,For bench / desk use
+W1,1 set,Jumper wires,Dupont female-female jumpers,20 cm F-F,ESP32 to relay modules
+W2,as needed,Hook-up wire,22 AWG stranded wire,22 AWG,Switch runs to the ESP32 (low voltage)
+W3,as needed,Mains wire,18 AWG or heavier rated wire / lamp cord,SPT-2 lamp cord or 14 AWG THHN,Mains side of relays
+J1,4,Wire connectors,Lever nuts or screw terminals for mains splices,WAGO 221-412,Mains splices
+E1,1,Enclosure - main box,3D-printed main switch box (90 x 132 x 38 mm),hardware/enclosure/main_switch_box.step,Print in PETG or ASA
+E2,1,Enclosure - back plate,3D-printed back plate with mounting ears (109 x 151 x 13 mm),hardware/enclosure/switch_box_back.step,Print in PETG or ASA
+PS2 (optional),1,AC-DC module,Mains to 5 V converter for a permanent install,Hi-Link HLK-PM01 (5 V / 0.6 A),Replaces the USB charger; fuse its input
+F1 (optional),1,Fuse,Inline fuse holder + fuse on the hot wire,5 A slow-blow,Recommended if not on a dedicated breaker
