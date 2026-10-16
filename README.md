@@ -2,6 +2,10 @@
 
 Control two lights from the **Apple Home app** (and Siri, Control Center, automations) using an ESP32 and two relay modules. Each light also has a normal **wall switch**, and the wall switch and the Home app always stay in sync.
 
+<p align="center"><img src="docs/switch-panel.jpg" width="45%" alt="Installed wall switch panel"> <img src="docs/home-app.jpg" width="50%" alt="Desk Lights and Room Lights in the Apple Home app"></p>
+
+*Left: the two wall switches in the printed panel. Right: the same two lights in the Home app.*
+
 ![Schematic](hardware/schematic.svg)
 
 ## Features
